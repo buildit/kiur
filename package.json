@@ -1,0 +1,16 @@
+{
+  "name": "kiur",
+  "version": "1.0.0",
+  "description": "Basic reset and default configurations to build stylesheets from",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "lint": "node_modules/sass-lint/bin/sass-lint.js -v src",
+    "build:docs": "./node_modules/sassdoc/bin/sassdoc src"
+  },
+  "author": "Peter Monks",
+  "license": "Apache-2.0",
+  "dependencies": {
+    "sassdoc": "^2.1.20"
+  }
+}
