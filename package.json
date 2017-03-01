@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "test": "npm run lint",
-    "lint": "node_modules/sass-lint/bin/sass-lint.js -v src",
+    "lint": "node_modules/sass-lint/bin/sass-lint.js -c sassdoc.yaml -v src",
     "build:docs": "./node_modules/sassdoc/bin/sassdoc src"
   },
   "author": "Peter Monks",
