@@ -17,5 +17,7 @@ Once it's installed, you can simply add the following to your main scss file:
     _in here define your variables_
     @import "~kiur/base";
 
+[A list of all variables can be found here.](https://buildit.github.io/kiur/)
+
 ## License
 [![Apache 2](http://img.shields.io/badge/license-Apache%202-red.svg)](http://www.apache.org/licenses/LICENSE-2.0)
