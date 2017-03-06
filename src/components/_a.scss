@@ -9,13 +9,13 @@
 
 a {
   /// Color for all `<a>` tags
-  $base-link-color: rgb(0, 0, 238);
+  $base-link-color: rgb(0, 0, 255) !default;
   /// Color for all `<a>` tags in a hover state
-  $base-link-active-color: rgb(255, 0, 0);
+  $base-link-active-color: rgb(255, 0, 0) !default;
   /// Color for all `<a>` tags while mouseovered
-  $base-link-hover-color: $base-link-color;
+  $base-link-hover-color: $base-link-color !default;
   /// Color for all `<a>` tags that have been visited already
-  $base-link-visited-color: rgb(85, 26, 139);
+  $base-link-visited-color: rgb(85, 26, 139) !default;
   background-color: transparent; /* 1 */
   -webkit-text-decoration-skip: objects; /* 2 */
 
