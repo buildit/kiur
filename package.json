@@ -13,9 +13,11 @@
   "license": "Apache-2.0",
   "dependencies": {
     "pre-commit": "^1.2.2",
+    "sass-lint": "^1.10.2",
     "sassdoc": "^2.1.20"
   },
   "pre-commit": [
+    "lint",
     "build:docs",
     "build:incorporate"
   ]
